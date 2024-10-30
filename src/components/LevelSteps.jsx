@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function LevelSteps() {
   return (
-    <ol className="flex items-center w-full text-sm font-medium text-center text-gray-500 sm:text-base px-14 mt-10">
-      <li className="flex w-full items-center text-blue-600 after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-600 after:border-1 after:inline-block after:mx-5">
+    <ol className="flex items-center w-full text-sm font-medium text-center text-gray-500 sm:text-base px-10 md:px-14 lg:px-20 mt-10">
+      <li className="flex w-full items-center after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-600 after:border-1 after:inline-block after:mx-4">
         <div className="flex flex-col justify-center items-center gap-2">
           <div className="">
             <div className="relative w-10 h-10 bg-silver rounded-full flex justify-center items-center">
@@ -43,7 +43,7 @@ export default function LevelSteps() {
           <h6 className="font-bold">Silver</h6>
         </div>
       </li>
-      <li className="flex w-full items-center text-blue-600 after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-600 after:border-1 after:inline-block after:mx-5">
+      <li className="flex w-full items-center after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-600 after:border-1 after:inline-block after:mx-4">
         <div className="flex flex-col justify-center items-center gap-2">
           <div className="">
             <div className="relative w-10 h-10 bg-gold rounded-full flex justify-center items-center">
